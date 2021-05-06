@@ -4,7 +4,7 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "firebase/firestore";
 import "firebase/auth";
-import { useFirebaseApp, AuthCheck } from "reactfire";
+import { AuthCheck } from "reactfire";
 import Login from "./components/login/Login";
 import Profule from "./components/Profule";
 import SignUp from "./components/signup";
